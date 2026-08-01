@@ -1,0 +1,1 @@
+Drag file on exe or run with cmd-line argument

@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
+"AutoRun"="@if not defined NOBASH if /i \"%CMDCMDLINE:\"=%\"==\"C:\\Windows\\system32\\cmd.exe \" (bash && exit) else if /i \"%CMDCMDLINE:\"=%\"==\"C:\\Windows\\system32\\cmd.exe\" (bash && exit)"

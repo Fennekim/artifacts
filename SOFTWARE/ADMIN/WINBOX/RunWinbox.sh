@@ -1,0 +1,2 @@
+#!/bin/sh
+WINED3D_VULKAN_DISPLAY_INDEX=-1 LIBGL_ALWAYS_SOFTWARE=1 wine winbox.exe
